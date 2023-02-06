@@ -1,0 +1,4 @@
+export const ALL_DISEA_REQUEST = 'ALL_DISEA_REQUEST';
+export const ALL_DISEA_SUCCESS = 'ALL_DISEA_SUCCESS';
+export const ALL_DISEA_FAIL = 'ALL_DISEA_FAIL';
+export const CLEAR_ERRORS = 'CLEAR_ERRORS';
