@@ -18,7 +18,7 @@ exports.createDisea = catchAsyncErrors(async (req, res, next) => {
 // get all diseas
 
 exports.getAllDiseas = catchAsyncErrors(async (req, res) => {
-  const resultPerPage = 5;
+  const resultPerPage = 8;
   const diseaCount = await Disea.countDocuments();
 
   const apiFeature = new Apifeatures(Disea.find(), req.query)

@@ -10,7 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Articlecard from './Articlecard.js';
 import MetaData from '../layout/metaData';
 import { getDisea } from '../../actions/diseaAction';
-import { useDispatch } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 
 // import images
 
